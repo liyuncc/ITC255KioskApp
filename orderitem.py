@@ -11,6 +11,10 @@ class OrderItem():
 
     def getQuantity(self):
         return self.quantity
-
-   
+    
+    def __str__(self):
+        return self.quantity
+        
+    
+    
 
