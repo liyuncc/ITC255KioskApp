@@ -1,21 +1,17 @@
 class Item():
-    def __init__(self, id, name, price):
-        self.id = id
-        self.name = name
-        self.price = price
-        
+    def __init__(self, itemnum, itemname, itemprice):
+        self.itemnum=itemnum
+        self.itemname=itemname
+        self.itemprice=itemprice
 
-    def getItemID(self):
-        return self.id
+    def getItemNumber(self):
+        return self.itemnum
 
     def getItemName(self):
-        return self.name
+        return self.itemname
     
     def getItemPrice(self):
-        return self.price
-
+        return self.itemprice
+    
     def __str__(self):
-        return self.name
-
-
-  
+        return self.itemname
